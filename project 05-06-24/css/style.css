@@ -1,3 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
 .become-sec {
     width: 100%;
     float: left;
