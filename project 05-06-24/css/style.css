@@ -13,3 +13,190 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.main-header .container{
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.header-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.logo{
+    width:25%;
+    float: left;
+}
+.logo img{
+    width: 260px;
+}
+.menu-togle{
+    width: auto;
+    float: left;
+    position: relative;
+
+}
+
+.togle-bar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    content: "";
+    width: 224px;
+    height: 199px;
+    background: white;
+transform: scaleY(0);
+transition: 0.6s;
+transform-origin: top;
+
+}
+
+
+.menu-togle:hover .togle-bar {
+    transform: scaleY(1);
+}
+.search-bar{
+    width: auto;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.search-bar input{
+    padding: 13px;
+    width: 264px;
+    border: none;
+    background: #f0f2f5;
+    font-size: 16px;
+    font-weight: 100;
+   
+}
+.search-icon{
+   width: 60px;
+   height: 44px; 
+   background-color:rgba(69, 121, 147, 1); 
+   position: absolute;
+   top: 0;
+   right: 0;
+   content: "";
+}
+.search-icon i {
+    height: 46px;
+    width: 60px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+}
+.stm-icon{
+    width: auto;
+    float: left;
+}
+.stm-icon ul{
+    padding-left: 40px;
+}
+.stm-icon ul li i{
+  font-size: 14px;
+color: rgba(69, 121, 147, 1);
+
+}
+.stm-icon ul li span{
+    padding-left: 8px;
+}
+.stm-icon ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.login-section{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: auto;
+    float: left;
+}
+.login ul li{
+display: inline-block;
+padding: 0px 8px;
+}
+.login ul li i{
+    font-size: 14px;
+    color: rgba(69, 121, 147, 1);
+    padding-right: 5px;
+}
+.login ul{
+    padding-left: 10px;
+}
+.login ul li i span{
+    padding-left: 10px;
+}
+.sign-up{
+    width: auto;
+    float: left;
+}
+.sign-up button{
+    font-size: 18px;
+    padding: 16px 25px;
+    background-color: rgb(255 68 80);
+    border: none;
+    border-radius: 29px;
+    font-weight: 600;
+    color: white;
+    transition: 0.6s;
+}
+.sign-up button:hover{
+    background-color:rgba(69, 121, 147, 1) ;
+}
+.heart{
+    width: auto;
+    float: left;
+}
+.heart i{
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.categories-header{
+    width: 100%;
+    float: left;
+    background-color:#273044; 
+}
+.categories-header-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories-header-main ul li{
+    display: inline-block;
+    text-align: center;
+    width: 138px;
+    height: 106px;
+    transition: 0.6s;
+}
+.categories-header-main ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories-header-main ul li i{
+    color:white;
+    font-size: 40px;
+    padding-top: 13px;
+    
+}
+.categories-header-main ul li p{
+    padding-bottom: 5px;
+}
+.categories-header-main ul li span{
+    color: white;
+}
+.categories-header-main ul li:hover{
+    background-color:rgba(69, 121, 147, 1) ;
+}
+
+
