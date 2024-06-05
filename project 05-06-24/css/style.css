@@ -13,3 +13,37 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.banner{
+    background-image: url('../images/bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 85vh;
+}
+.baner-txt h2 {
+    font-size: 50px;
+    line-height: 54px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+.baner-txt p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.baner-txt a button {
+    padding: 18px 37px;
+    border-radius: 30px;
+    border: none;
+    background: #ff4450;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+.baner-txt a button:hover{
+    content: "";
+    background-color: orangered;
+    transition:all .25s
+}
