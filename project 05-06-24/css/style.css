@@ -85,7 +85,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 2px;
     transition: .25s ease;
     overflow: hidden;
     position: relative;
