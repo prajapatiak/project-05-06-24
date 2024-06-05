@@ -13,6 +13,7 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+<<<<<<< HEAD
 .banner-sec {
     width: 100%;
     float: left;
@@ -24,10 +25,48 @@ body{
     float: left;
 }
 .banner-img {
+=======
+
+.become-sec {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.become-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instuctur-sec {
+    width: 50%;
+    float: left;
+    padding: 35px 15px;
+}
+
+.instucture-main {
+    width: 100%;
+    float: left;
+    border: 1px solid #e0e0e0;
+    padding: 50px 40px 70px;
+}
+
+.instucture-image {
+    width: 221px;
+    height: 231px;
+    display: block;
+}
+
+.instucture-image img {
+>>>>>>> 8aa0ad6958068cbb516c73042f05f85791d2e774
     width: 100%;
     height: 100%;
 }
 
+<<<<<<< HEAD
 .banner-img img {
     float: right;
     width: auto;
@@ -78,3 +117,63 @@ body{
     width: 100%;
     float: left;
 }   
+=======
+.instucture-content {
+    width: 100%;
+    float: left;
+    max-width: 380px;
+}
+
+.instucture-content h3 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #273044;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.instucture-content p {
+    font-size: 18px;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.instucture-main a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background: #FF444E;
+    padding: 20px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 30px;
+    transition: .25s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.instucture-main a:hover {
+    background: #4ed7a8;
+}
+
+.instucture-main a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000001a;
+    left: -100%;
+    top: 0;
+    transition: all .25s cubic-bezier(.66,.36,.17,.91);
+}
+
+.instucture-main a:hover:after {
+    transform: translateX(0);
+    left: 0;
+}
+>>>>>>> 8aa0ad6958068cbb516c73042f05f85791d2e774
