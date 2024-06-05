@@ -13,11 +13,13 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
-.flex{
+.flex {
     display: flex;
+    width: 100%;
 }
 .col-4{
     width: 25%;
+    float:left;
     
 }
 img{
@@ -25,9 +27,11 @@ img{
 }
 .footer {
     background-color: #273044;
-    padding: 63px 0 25px 0;    
+    padding: 63px 0 25px 0;
     color: #fff;
     font-size: 13px;
+    width: 100%;
+    float: left;
 }
 .footer h3{
     font-size: 18px;
@@ -97,6 +101,12 @@ img{
 }
 .footer-copyright a{
     color: #fff;
+}
+
+.main-header {
+    width: 100%;
+    float: left;
+    background: #fff;
 }
 
 .main-header .container{
@@ -299,6 +309,7 @@ padding: 0px 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0;
 }
 
 .instuctur-sec {
@@ -380,8 +391,9 @@ padding: 0px 8px;
 
 .instucture-main a:hover:after {
     transform: translateX(0);
-    left: 0;
+    left: 0;
 }
+
 .banner-sec {
     width: 100%;
     float: left;
