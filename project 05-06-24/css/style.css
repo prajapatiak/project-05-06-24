@@ -13,3 +13,120 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.courses{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.courses-main{
+    width: 100%;
+    float: left;
+}
+.heading{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+}
+.all{
+    width: 100%;
+    float: left;
+}
+.all ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   padding: 30px 0px;
+}
+.all ul li{
+    list-style: none;
+ }
+ .all ul li a{
+     text-decoration: none;
+     color: rgb(69 121 147) ;
+     padding: 8px 20px;
+     border-radius: 25px;
+     transition: 0.5s;
+ }
+ .all ul li a:hover{
+    background-color: rgb(69 121 147);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+.courses-box-main{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.courses-box{
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    border:1px solid lightgray
+}
+.courses-pic{
+    width: 100%;
+    float: left;
+}
+.courses-pic img{
+    width: 100%;
+}
+
+.courses-text{
+    width: 100%;
+    float: left;
+    padding: 10px 20px;
+}
+.courses-text span{
+    font-size: 13px;
+    color: gray;
+}
+.courses-text p{
+   padding: 10px 0px;
+}
+.price{
+    width: 100%;
+    float: left;
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+}
+.price ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price ul li{
+    color: gray;
+}
+.price ul li i{
+    padding-right: 10px;
+}
+.price ul li span{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.show-btn{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.courses-box-main button {
+    background-color: rgb(69 121 147);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: rgb(69 121 147);
+}
