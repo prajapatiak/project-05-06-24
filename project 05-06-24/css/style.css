@@ -130,3 +130,8 @@ body{
     border-radius: 25px;
     border: rgb(69 121 147);
 }
+.courses-box-main button:hover{
+    background-color: rgb(28, 78, 102);
+    transition: linear 0.6s;
+}
+
