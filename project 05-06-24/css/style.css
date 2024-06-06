@@ -179,12 +179,11 @@ img{
     left: 0;
     content: "";
     width: 224px;
-  
     background: white;
-transform: scaleY(0);
-transition: 0.6s;
-transform-origin: top;
-
+    transform: scaleY(0);
+    transition: 0.6s;
+    z-index: 9999;
+    transform-origin: top;
 }
 .togle-bar ul li{
     list-style: none;
