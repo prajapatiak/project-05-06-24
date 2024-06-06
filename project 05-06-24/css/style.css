@@ -99,6 +99,11 @@ img{
 .manage{
     padding: 0 15px 15px 15px;
 }
+
+.udemy{
+    width: 100%;
+    float: left;
+}
 .paragraph a{
     color: #457992;
 }
