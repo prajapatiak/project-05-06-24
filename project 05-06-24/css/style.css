@@ -47,14 +47,17 @@ body{
     left: 0;
     content: "";
     width: 224px;
-    height: 199px;
+  
     background: white;
 transform: scaleY(0);
 transition: 0.6s;
 transform-origin: top;
 
 }
-
+.togle-bar ul li{
+    list-style: none;
+    padding: 10px; 
+}
 
 .menu-togle:hover .togle-bar {
     transform: scaleY(1);
